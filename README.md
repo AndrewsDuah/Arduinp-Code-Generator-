@@ -15,6 +15,9 @@ This Java application dynamically generates complete Arduino `.ino` sketches bas
 
 * `Main.java` – Entry point for running the generator with sample components.
 * `BuzzerClass.java` – Defines buzzer behavior and code generation logic.
+* `LedClass.java` – Defines led behavior and code generation logic.
+* `ServoClass.java` – Defines Servo behavior and code generation logic.
+* `DHT11Class.java` – Defines DHT11 behavior and code generation logic.
 * `GenCode.java` – Central code generator that aggregates all component code into a full Arduino sketch.
 
 ### 🛠️ Ideal For:
@@ -22,6 +25,11 @@ This Java application dynamically generates complete Arduino `.ino` sketches bas
 * Beginners looking to understand hardware-software integration.
 * Embedded systems students exploring code automation.
 * Developers who frequently prototype with Arduino and want to save setup time.
+
+
+Snipper of Code Output 
+
+![image](https://github.com/user-attachments/assets/dabc4a53-7092-4bf5-9921-c48054d2bc75)
 
 
 
